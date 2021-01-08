@@ -1,0 +1,128 @@
+<!doctype html>
+
+<html lang="en">
+
+  <head>
+
+    <title>Homepage</title>
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+
+  <body>
+
+     <div class="wrapper d-flex align-items-stretch">
+	<nav id="sidebar" class="active">
+
+		<a href="index.html" class="logo"><img src="images/logofinal.png"></a>
+	
+        <ul class="list-unstyled components mb-5">
+         
+   		<li class="active">
+<a href="index.html"><span class="fa fa-home"></span> Home</a></li>
+
+          		<li><a href="user.html"><span class="fa fa-user"></span> About</a>
+</li>
+
+		        <li><a href="podcast.html"><span class="fa fa-microphone"></span> Podcasts</a></li>
+
+		        <li>
+<a href="directories.html"><span class="fa fa-bullhorn"></span> Directories</a>
+</li>
+			<li>
+<a href="rss.html"><span class="fa fa-external-link-square"></span>RSS Feed</a>
+</li>
+			<li>
+<a href="website.html"><span class="fa fa-globe"></span> Website</a>
+</li>
+	                <li>
+<a href="#"><span class="fa fa-bar-chart"></span> Stats</a>
+</li>
+			<li><a href="help.html"><span class="fa fa-paper-plane"></span> Help</a>
+</li>
+
+
+	        </ul>
+
+
+        </nav>
+        <div id="content" class="p-4 p-md-5">
+
+
+        	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+		          <div class="container-fluid">
+
+
+            			<button type="button" id="sidebarCollapse" class="btn btn-primary"><i class="fa fa-bars"></i>
+<span class="sr-only">Toggle Menu</span></button>
+            				        <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<i class="fa fa-bars"></i></button>
+
+
+            			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			
+              <ul class="nav navbar-nav ml-auto">
+				
+                <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+				
+                <li class="nav-item"><a class="nav-link" href="user.html">About</a>
+</li>
+				
+                <li class="nav-item"><a class="nav-link" href="#">Sign Out</a></li>
+			
+              </ul>
+
+		                </div>
+
+		          </div>
+ 
+	       </nav>
+
+	
+        <h2 class="mb-4">Upload Podcast</h2>
+		<p>Upload your podcast and let us spread it</p>
+                  <div class="contact-form">
+                     <form action="help.html" method="post">
+			  <label for="img">Upload Podcast Image:</label>
+  			   <input type="file" id="podcast_img" name="img" accept="image/*">
+			  <div class="message">
+				<input type="text" id="podcast_name" placeholder="Enter podcast name" required>
+			  </div>
+			  <div class="message">
+				<input type="text" id="podcast_unqname" placeholder="Enter a name unique to your podcast" required>
+			  </div>
+                          <div class="message">
+                                 <textarea id="podcast_description" placeholder="Podcast description goes here"></textarea>
+                          </div>
+                     </form>
+
+		</div>
+
+
+		<a href="#" class="button button1">Create Podcast</a>
+	 </div>
+       </div>
+	
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+
+    <script src="js/popper.js"></script>
+
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/main.js"></script>
+
+  </body>
+
+</html>
